@@ -1,0 +1,123 @@
+<head>
+	<link rel="stylesheet"d type"text/css" href="a.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="a.js"></script>
+</head>	
+
+<body>
+	<div class="container">
+		<div class="navBar flex">
+			<img class="navImgLogo"  onclick="scrollToo(0)"/>
+			<div class="navButton" onclick="scrollToo(1)"> Our History </div>
+			<div class="navButton" onclick="scrollToo(2)"> Take A Trip </div>
+			<div class="navButton" onclick="scrollToo(3)"> Contact Us </div>
+		</div>
+
+		<div id="background" class="leafBackground"> </div>
+		
+		<div id="spaceForNav" class="spaceForNav"> </div>
+
+		<div class="firstDiv flex">
+			<h1 class="westwoodTitle"> Westwood Botanical Gardens</h1>
+			<h4 class="westwoodDescription"> Experience the most prestine form of natural beauty at <br> the only completely untouched area of Los Angeles </h4>
+			<div class="mydiv">
+				<div id="img1" class="image flex"> 
+					<img id="pic1" class="picture" />
+				</div>
+				<div id="img2" class="image flex">
+					<img id="pic2" class="picture" />
+				</div>
+				<div id="img3" class="image flex">
+					<img id="pic3" class="picture" />
+				</div>
+				<div id="img4" class="image flex"> 
+					<img id="pic4" class="picture" />
+				</div>
+				<div id="img5" class="image flex"> 
+					<img id="pic5" class="picture" />
+				</div>
+			</div>
+			<div class="barDiv flex">
+				<div class="bar flex">
+					<div class="leftArrow flex" onclick="masterMove(1, true)">
+						<img id="leftHalf" class="arrowImgHalf"/>
+						<img id="leftFill" class="arrowImgFilled"/>
+						<img id="leftImg" class="arrowImg"/>
+					</div>
+
+					<div id="butt1" class="barButton flex" onclick="masterMove(2, true)"> </div>
+					<div id="butt2" class="barButton flex" onclick="masterMove(3, true)"> </div>
+					<div id="butt3" class="barButton flex buttClicked" onclick="masterMove(4, true)"> </div>
+					<div id="butt4" class="barButton flex" onclick="masterMove(5, true)"> </div>
+					<div id="butt5" class="barButton flex" onclick="masterMove(6, true)"> </div>
+
+					<div class="rightArrow flex" onclick="masterMove(7, true)">
+						<img id="rightHalf" class="arrowImgHalf" />
+						<img id="rightFill" class="arrowImgFilled" />
+						<img id="rightImg" class="arrowImg" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="secondDiv" class="secondDiv">
+			<div id="leafLayer">
+				<div class="leafSpace1"> </div>
+				<img id="leaf1" />
+				<div id="leafSpace2"> </div>
+				<img id="leaf2" />
+				<div id="leafSpace3"> </div>
+				<img id="leaf3" />
+			</div>
+			<div class="secondTextLayer">
+				<h1 id="secondHeader"> Our History </h1>
+				<p id="secondP"> 
+					Southern California is known across the world as a cosmopolitan region with a flourishing culture that sets trends that affect millions of people. The sound of the palm trees swaying in the relaxing 70-degree gentle breeze makes it one of the best places known to man to engage in outdoor activities. 
+					<br><br>
+					In modern society, humans have been able to thrive at the expense of our Mother Nature. Our proud founders, James Moorington and Josh Sunkist, swore to spend their lives ensuring the safety and preservation of their favorite area of Southern California. Their determination, leadership, and kind hearts have been passed down through the last three generations of their families. 
+					<br><br>
+					The Moorington and Sunkist families have inspired hundreds across the SoCal region, and we are devoted to ensure that we maintain the cause that our founders died fighting for.
+				</p>
+			</div>
+		</div>
+		<div id="thirdDiv" class="thirdDiv">
+			<div id="thirdImageLayer" class="flex">
+				<a href="https://maps.google.com" target="_blank"> <img id="thirdImage" /> </a>
+			</div>
+			<div id="thirdTextLayer" class="secondTextLayer">
+				<h1 id="thirdHeader"> Take A Trip </h1>
+				<p id="thirdP"> 
+					Southern California is known across the world as a cosmopolitan region with a flourishing culture that sets trends that affect millions of people. The sound of the palm trees swaying in the relaxing 70-degree gentle breeze makes it one of the best places known to man to engage in outdoor activities. 
+					<br>
+					Book your trip at (561)-800-5368.
+				</p>
+			</div>
+		</div>
+		<div id="fourthDiv" class="fourthDiv flex">
+			<h1> Contact Us </h1>
+			<p class="fourthText"> We want to make sure that every visitor gets the full experience that Westwood Botanical Gardens has to offer. Please fill out the following form if you have an inquiries about our services, would like to join our team, or anything else. <br>
+			We respond within at most two business days. </p>
+			<form>
+				<fieldset>
+				Name: <br>
+				<input type="text" label="name" placeholder="Josh">
+				<br><br> Email: <br>
+				<input type="text" label="email" placeholder="josh@wbg.com">
+				<br><br> Message: <br>
+				<textarea type="text" label="message" rows="5" cols="30" placeholder="Hello. I left my water bottle on the bench next to the west entrance of Boelter Garden on Tuesday last week (November 3rd). I was wondering if you guys have it. Thanks."></textarea>
+				<br>
+				<input type="submit" value="Submit" onclick="alert('Thank you for your inquiry. We will respond as soon as possible.')">
+			</fieldset>
+			</form>
+		</div>
+		<div id="fifthDiv" class="fifthDiv flex">
+			<a class="designedContainer flex" href="http://yashmoondhra.com" target="_blank">
+				<h1 class="designedText"> Designed By </h1>
+				<h2 class="designedText"> Yash Moondhra </h2>
+				<div class="lowkeyLogo"> </div>
+			</a>
+			<div id="fourthBackground1" class="leafBackground"> </div>
+		</div>
+	</div>
+
+	<script> init() </script>
+</body>
