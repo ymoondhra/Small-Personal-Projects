@@ -14,9 +14,9 @@ Westwood Botanical Gardens is a theoretical nature preserve located in Los Angel
 The picture carousel near the top of the page adds to the three-dimensional effect, as it has three layers. An algorithm automatically moves the carousel at a steady pace to give the user an example of the features that Westwood Botanical Gardens contains. A button bar under this slideshow gives the user control of the picture set. At any time, they can click a button to take them to an image they choose or use the arrows to peruse through at their own pace. These actions stop the auto-move algorithm.  
 
 #### Technologies Used: ####
-  – jQuery ($window.scroll(), .animate(), .css()) <br />
-  – JavaScript (global variables, .setTimeout(), setInterval(), clearInterval(), switch functions) <br />
-  – CSS (flexbox, @media, hover, transform) <br />
-  – HTML5 (form, onclick functions) <br />
+* jQuery ($window.scroll(), .animate(), .css()) <br />
+* JavaScript (global variables, .setTimeout(), setInterval(), clearInterval(), switch functions) <br />
+* CSS (flexbox, @media, hover, transform) <br />
+* HTML5 (form, onclick functions) <br />
  <br />
 
