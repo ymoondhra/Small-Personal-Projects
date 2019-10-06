@@ -1,5 +1,5 @@
 # Small-Personal-Projects #
-This is a collection of small, fun coding projects I brainstormed and created myself.
+This is a collection of small coding projects I brainstormed and created myself for fun.
 
 ## Alphabetizer ##
 This C++ program takes in a .txt file of names and returns a new .txt file of sorted names. I made the Node class a template class so that it could be expanded to other applications that require a binary search tree data structure. For example, the same node class could be used to store the names of products in a store.
