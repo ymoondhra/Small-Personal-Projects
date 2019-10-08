@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 9873,
+  "expoServerNgrokUrl": "https://82-cqv.anonymous.bool.exp.direct",
+  "packagerNgrokUrl": "https://packager.82-cqv.anonymous.bool.exp.direct",
+  "ngrokPid": 9889,
+  "webpackServerPort": null
+}
