@@ -23,5 +23,5 @@ The picture carousel near the top of the page adds to the three-dimensional effe
 * All names on the inputted file must each be exactly two words <br />
 * The insertNode function requires a node to already be in the tree to insert the next node   
 
-## YouTrition ##
+## YouTrition (Front-End) ##
 YouTrition is a pre-workout supplement company that I founded in 2018 with Ben Spievak. I designed this website to create a brand for ourselves and provide users with an understanding of who we are and what we do.  
