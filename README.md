@@ -6,11 +6,7 @@ This is a collection of small coding projects I brainstormed and created myself 
 This C++ program takes in a .txt file of names and returns a new .txt file of sorted names. I made the Node class a template class so that it could be expanded to other applications that require a binary search tree data structure. For example, the same node class could be used to store the names of products in a store.  
 
 ## Bool (Front-End) ##
-Bool is a mobile application which helps you plan and organize any sized event with any number of friends. This project demonstrates the front-end for the first few screens for the application.   
-
-#### Inconveniences: ####
-* All names on the inputted file must each be exactly two words <br />
-* The insertNode function requires a node to already be in the tree to insert the next node  <br />
+Bool is a React Native mobile application which helps you plan and organize any sized event with any number of friends. This project demonstrates the front-end and designs for the first few screens of the application, making heavy use of React Native's Animated library.   
 
 ## Westwood Botanical Gardens (Front-End) ##
 Westwood Botanical Gardens is a theoretical nature preserve located in Los Angeles. They center their brand around their powerful history and connection to mother nature. I designed the website based on this brand. The user's scroll creates three-dimensional movement on the flat web page because of the parallax effect with the leafy background – similar to moving through a forest. The green logo and green color layer contribute to the feeling of being in nature. I chose to use a white background on the "Our History" section because white represents openness and purity. The people of Westwood Botanical Gardens see the actions of their founders as the purest form of what they do. However, this background is not fully opaque; the leafy background still shows because nature is incorporated into everything they do.  
@@ -21,4 +17,8 @@ The picture carousel near the top of the page adds to the three-dimensional effe
 * jQuery ($window.scroll(), .animate()) <br />
 * JavaScript (global variables, .setTimeout(), setInterval(), clearInterval(), switch functions) <br />
 * CSS (flexbox, @media, hover, transform) <br />
-* HTML5 (form, onclick functions)  
+* HTML5 (form, onclick functions)    
+
+#### Inconveniences: ####
+* All names on the inputted file must each be exactly two words <br />
+* The insertNode function requires a node to already be in the tree to insert the next node  <br />
