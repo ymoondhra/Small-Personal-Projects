@@ -3,7 +3,10 @@ Demonstrations: https://drive.google.com/drive/u/0/folders/1ahm8fjFr0rH-GhiChZtd
 This is a collection of small coding projects I brainstormed and created myself for fun.
 
 ## Alphabetizer (Back-End) ##
-This C++ program takes in a .txt file of names and returns a new .txt file of sorted names. I made the Node class a template class so that it could be expanded to other applications that require a binary search tree data structure. For example, the same node class could be used to store the names of products in a store.
+This C++ program takes in a .txt file of names and returns a new .txt file of sorted names. I made the Node class a template class so that it could be expanded to other applications that require a binary search tree data structure. For example, the same node class could be used to store the names of products in a store.  
+
+## Bool (Front-End) ##
+Bool is a mobile application which helps you plan and organize any sized event with any number of friends. This project demonstrates the front-end for the first few screens for the application.   
 
 #### Inconveniences: ####
 * All names on the inputted file must each be exactly two words <br />
@@ -19,6 +22,3 @@ The picture carousel near the top of the page adds to the three-dimensional effe
 * JavaScript (global variables, .setTimeout(), setInterval(), clearInterval(), switch functions) <br />
 * CSS (flexbox, @media, hover, transform) <br />
 * HTML5 (form, onclick functions)  
-
-## Bool (Front-End) ##
-Bool is a mobile application which helps you plan and organize any sized event with any number of friends. This project demonstrates the front-end for the first few screens for the application. 
