@@ -1,0 +1,176 @@
+.ingredient {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.ingredient-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+  filter: blur(4px);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.ingredient-title {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 5rem;
+  flex-direction: column;
+  text-align: center;
+
+  color: white;
+}
+
+.ingredient-name {
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.ingredient-effect {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  color: silver;
+  font-style: italic;
+  text-decoration: overline;
+  font-family: 'Avenir', 'Futura', 'Verdana', sans-serif; 
+  font-weight: 100;
+}
+
+.ingredient-large-container {
+  width: 100%;
+  justify-content: flex-start;
+
+  height: auto;
+  position: absolute;
+  bottom: 10%;
+}
+
+.ingredient-space {
+  width: 0;
+  height: 1rem;
+}
+
+.ingredient-description-container {
+  width: 50%;
+  opacity: 0.9;
+
+  height: auto;
+  bottom: 10%;
+  
+  background-color: black;
+  background-color: rgba(0,0,0, 0.8);
+
+  text-align: left;
+  color: white;
+}
+
+// .ingredient-description-container:nth-child(1) {
+//   margin-left: 50%;
+//   border:5px solid red;
+// }
+
+.ingredient-description {
+  padding: 2rem;
+  width: 90%;
+  max-width: 37rem;
+}
+
+.ingredient-buy {
+  background-color: rgba(254,255,249, 1);
+  width: 100%;
+  height: 10rem;
+  flex-direction: column;
+  text-align: center;
+}
+
+// .ingredient-buy-img {
+//   width: 100%;
+//   height: 10rem;
+//   content: url('../assets/background_design.png');
+//   object-position: center;
+//   object-fit: cover;
+//   position: absolute;
+//   z-index: -1;
+
+//   opacity: 0.5;
+//   filter: grayscale(70%);
+
+// }
+
+.ingredient-button {
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  padding: 0.6rem 2rem 0.6rem 2rem;
+  background-color: transparent;
+  border: 2px solid rgb(234, 180, 53);
+  transition: ease-in-out 0.2s;
+  color: rgb(234, 180, 53);
+}
+.ingredient-button:hover {
+  background-color: rgb(234, 180, 53);
+  transition: ease-in-out 0.2s;
+  color: snow;
+  cursor: pointer;
+}
+
+// Ingredients
+#endurance {
+  background-image: url("../assets/ingredients/ropes.jpg");
+  background-position: right;
+  filter: brightness(70%);
+}
+
+#larginine {
+  background-image: url("../assets/ingredients/boxing.jpg");
+  filter: brightness(55%);
+  background-position: left;
+}
+
+#creatine {
+  background-image: url("../assets/ingredients/creatine.jpg");
+  filter: brightness(60%);
+  background-position: right;
+}
+
+#betaine {
+  background-image: url("../assets/ingredients/yoga.jpg");
+  filter: brightness(60%);
+  background-position: right;
+}
+
+#lnorvaline {
+  background-image: url("../assets/ingredients/lnorvaline.jpg");
+  filter: brightness(60%);
+  background-position: 60%;
+}
+
+#caffeine {
+  background-image: url("../assets/ingredients/energy.jpg");
+  filter: brightness(60%);
+  background-position: right;
+}
+
+@media (max-width: 45rem) {
+  .ingredient-description-container {
+    // position: relative;
+    // top: 75%;
+    // z-index: 100;
+  }
+  .ingredient-large-container {
+    bottom: 0;
+  }
+  .ingredient-space {
+    display: none;
+  }
+  .ingredient-description-container {
+    width: 100%;
+    text-align: center;
+  }
+}
