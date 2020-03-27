@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*HAO TIPS
+–Coolors.co to select color scheme
+–Sass: https://sass-lang.com/guide
+
+Link: file:///Users/ymoondhra/Desktop/UCLA/Personal-Coding-Projects/Personal%20Website/Creating%20The%20Website/Attempts/Attempt%20%233/fri13.html
+
+
+/* cd /Users/ymoondhra/Desktop/UCLA/Personal-Coding-Projects/Personal\ Website/Creating\ The\ Website/Attempts/Attempt\ #4 */
+/* sass --watch sass/fri13.scss:css/fri13.css */
+/*HAO TIPS
+–Coolors.co to select color scheme
+–Sass: https://sass-lang.com/guide
+
+Link: file:///Users/ymoondhra/Desktop/UCLA/Personal-Coding-Projects/Personal%20Website/Creating%20The%20Website/Attempts/Attempt%20%233/fri13.html
+
+/*
+Modern Design:
+–Animations
+–Using photos as background: OUTDATED
+*/
+/* ALL */
+body {
+  margin: 0px !important;
+  scroll-behavior: smooth;
+  font-family: 'Futura', 'Verdana', sans-serif; 
+  background-color: rgb(237,237,237);
+  overflow: hidden;
+  }
+
+.flexin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* IMPORTANT CLASSES */
+
+.headerIdo {
+  font-size: 4rem;
+  color: #365ED8;
+  z-index: 10;
+  opacity: 0.99;
+  margin-bottom: 0.1em;
+  margin-top: 0.5em; 
+}
+
+.goldenContainer {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column; 
+}
+
+.container {
+  min-width: 25em;
+  min-height: 45em;
+  min-height: 35rem;
+}
+
+/*# sourceMappingURL=fri13.css.map */

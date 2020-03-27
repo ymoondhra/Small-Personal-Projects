@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html prefix="og: http://ogp.me/ns#">
+<head>
+	<title>Yash Moondhra</title>
+	<meta property="og:title" content="Yash Moondhra" />
+	<meta property="og:type" content="website" />
+	<meta property='og:url' content="http://yashmoondhra.com" />
+	<meta property="og:description" content="Yash Moondhra's Website"/>
+
+	<link rel="stylesheet" type="text/css" href="all.css" />
+	<link rel="stylesheet" type="text/css" href="fri13.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="fadeIn.js"></script>
+	<script src="fri13.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=0.85" user-scalable="no" />
+</head>
+
+<body onresize="resizePage()">
+	</div>
+	<div id="whatContainer" class="goldenContainer container">
+		<div id="blackOverlay" class="flexin">
+		<video id="fitnessVid" class="activityVid" src="homeAssets/fitness.mp4" type="video/mp4" loop muted> 
+		</video>
+		<video id="academicsVid" class="activityVid" src="homeAssets/academics.mp4" type="video/mp4" loop muted> 
+		</video>
+		<video id="musicVid" class="activityVid" src="homeAssets/music.mp4" type="video/mp4" loop muted> 
+		</video>
+		<video id="serviceVid" class="activityVid" src="homeAssets/service.mp4" type="video/mp4" loop muted> 
+		</video>
+		 </div>
+		<h1 id="whatHeader" class="headerIdo"> What I Do </h1>
+		<div id="whatHome" class="flexin">
+			<div id="abler" onclick="ableBackground();"> Enable Background </div>
+			<div id="blue-circles-container"> </div>
+			<div class="activitiesBox flexin">
+			      <span id="academics" class="activity" onmouseover="whatHover(2)" onmouseleave="whatLeave(2)"  target="_blank">
+			      	<h3 class="activityText"> ACADEMICS </h3>
+			       </span>
+			      <span id="music" class="activity" onmouseover="whatHover(3)" onmouseleave="whatLeave(3)" target="_blank"> 
+			      	<h3 class="activityText"> MUSIC </h3>
+			      </span>
+			      <span id="fitness" class="activity" onmouseover="whatHover(1)" onmouseleave="whatLeave(1)" target="_blank"> 
+			      	<h3 class="activityText"> FITNESS </h3>
+			      </span>
+			      <span id="service" class="activity" onmouseover="whatHover(4)" onmouseleave="whatLeave(4)" target="_blank"> 
+			      	<h3 class="activityText"> SERVICE </h3>
+			      </span>
+			</div>
+		<h1 id="videoExplanation"> Video of: Peg Wall at Michael's Gym <br> Click the icon to see more.</h1>
+		</div>
+	</div>
+	
+	<script> initPage();</script>
+
+</body>
+</html>

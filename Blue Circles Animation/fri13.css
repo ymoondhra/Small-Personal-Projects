@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/*HAO TIPS
+–Coolors.co to select color scheme
+–Sass: https://sass-lang.com/guide
+
+Link: file:///Users/ymoondhra/Desktop/UCLA/Personal-Coding-Projects/Personal%20Website/Creating%20The%20Website/Attempts/Attempt%20%233/fri13.html
+
+
+/* cd /Users/ymoondhra/Desktop/UCLA/Personal-Coding-Projects/Personal\ Website/Creating\ The\ Website/Attempts/Attempt\ #4 */
+/* sass --watch sass/fri13.scss:css/fri13.css */
+
+/*
+Modern Design:
+–Animations
+–Using photos as background: OUTDATED
+*/
+
+.goldenContainer {
+  height: 45em;
+}
+
+#yashHome {
+  width: 100%;
+  font-family: "Trebuchet MS";
+  color: #FBECEC;
+  flex-direction: column;
+}
+
+#ymBigText {
+  font-size: 5.25vw;
+  color: white;
+  opacity: 1;
+  flex-grow: 5;
+  height: 20%;
+  padding-top: 0.4em;
+  margin: 0 !important;
+}
+
+.yashBig {
+
+}
+
+.moondhraBig {
+  padding-left: 0.25em;
+}
+
+#welcomeDescription {
+  font-size: 2.8vw;
+  color: #FAFBEB;
+  opacity: 1;
+  margin: 0 !important; 
+  transition: ease-in-out 0.2s;
+  
+}
+
+#welcomeDescription:after {
+  content: 'I created this website to bring together \A the different parts of who I am.';
+  white-space :pre;
+}
+
+#scrollDownContainer {
+  width: 100%;
+  flex-grow: 4;
+}
+
+#scrollDownCircle {
+  border-radius: 50%;
+  width: 5.5em;
+  height: 5.5em;
+  border: 1px solid black;
+  background-image: url("homeAssets/arrow.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  filter: opacity(85%);
+  filter: hue-rotate(0deg);
+  filter: drop-shadow(1px 1px 15px blue);
+  opacity: 1; }
+
+.upAndDown {
+  animation: slowUpDown 3.8s;
+  animation-iteration-count: infinite; }
+
+@keyframes slowUpDown {
+  0% {
+    transform: translate(0px, -3px); }
+  10% {
+    transform: translate(0px, -3px); }
+  50% {
+    transform: translate(0px, 9px); }
+  100% {
+    transform: translate(0px, -3px); } }
+
+#whyContainer {
+  flex-direction: column;
+  min-height: 40em;
+}
+
+#whyTextDiv {
+  width: 28em;
+  margin: auto;
+  flex-grow: 1;
+}
+
+#whyText {
+  padding: 2.5%;
+  line-height: 150%;
+  font-size: 1.15em; 
+  border: 2px solid black;
+}
+
+#blueBarDiv {
+  flex-grow: 1;
+}
+
+#blueBar {
+  width: 18rem;
+  height: 1.25em;
+  background-color: #FFB300;
+  border-radius: 8%; }
+
+#form {
+  display: none;
+}
+
+#whatContainer {
+  position: relative;
+  /*justify-content: center;*/
+  align-items: center; 
+}
+
+#blackOverlay {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0;
+  left:0;
+  position: absolute;
+}
+
+#blue-circles-container {
+  position: absolute;
+  height: 96%;
+  width: 100%;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 0.75s ease-in-out;
+}
+
+.mini {
+  border-radius: 50%;
+  border: 1px solid #536895;
+  position: absolute;
+  box-shadow: 0 0 0.75em #000;
+  background-color: #2960FF; 
+}
+
+#abler {
+  position: absolute;
+  box-shadow: 0 0 1em #000;
+  top: 2%;
+  left: 0;
+  border: 1px solid black;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #20212B;
+  opacity: 0.5;
+  z-index: 2;
+  color: #FBECEC;
+  transition: ease-in-out 0.2s; 
+  user-select: none;
+}
+
+#abler:hover {
+  opacity: 1; 
+}
+
+#whatHome {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 15em;
+  border-radius: 2%;
+  align-items: space-between;
+}
+
+.activitiesBox {
+  width: 80%;
+  height: 50%;
+  z-index: 100;
+  left: 10%;
+  position: absolute;
+}
+
+.activity {
+  height: 10em;
+  width: 25%;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  
+  border-radius: 50%;
+  border: 1px solid black;
+  text-decoration: none;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0 0 1em #000;
+  opacity: 0.8;
+}
+
+.white {
+  background-color: white; }
+
+.activityText {
+  color: black;
+  font-size: 2vw;
+  margin-top: 45%;
+  opacity: 0; }
+
+#fitness {
+  background-image: url("generalAssets/png/fitness.png"); }
+
+#academics {
+  background-image: url("generalAssets/png/academics.png"); }
+
+#music {
+  background-image: url("generalAssets/png/music.png"); }
+
+#service {
+  background-image: url("generalAssets/png/service.png"); }
+
+.activityVid {
+  width: 100%;
+  position: absolute;
+  opacity: 0.0;
+  filter: blur(5px) brightness(70%); 
+}
+
+#videoExplanation {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #FBECEC;
+  opacity: 0;
+  z-index: 100;
+  font-size: 3vw;
+  left: 0;
+}
+
+@media only screen and (min-width: 57em) {
+  #ymBigText {
+    font-size: 3em; 
+  }
+
+  #welcomeDescription {
+    font-size: 1.7em; } }
+@media only screen and (max-width: 35em) {
+  #ymBigText {
+    flex-direction: column;
+    font-size: 2.2em;
+  }
+  .yashBig{
+          padding: 0;
+          margin: 0;
+  }
+
+  .moondhraBig{
+          padding: 0;
+          margin: 0;
+  }
+
+  #welcomeDescription {
+    font-size: 1.1em;
+    width: 85%;
+  }
+
+  #welcomeDescription:after {
+    content: 'I created this website to bring together the different parts of who I am.';
+    white-space: normal;
+
+  }
+
+  .activitiesBox {
+    flex-direction: column;
+    height: 90%;
+    width: 50%; 
+    left: 25%;
+    top: 5%;
+  }
+
+  .activity {
+    height: 7.5em;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    width: 45%;
+  } 
+}
+@media only screen and (min-width: 83em) {
+  .enjoyHeader {
+    font-size: 33px; } }
+@media only screen and (max-width: 50em) {
+  #midSpace {
+    width: 10%; }
+
+  .enjoy {
+    width: 40%; } }
+/* SCALE CLASSES */
+.scale1180 {
+  animation: increaseSizeHover 0.80s;
+  animation-iteration-count: 1;
+  transform: scale(1.1); }
+
+.unscale1180 {
+  animation: decreaseSizeHover 0.25s;
+  animation-iteration-count: 1;
+  transform: scale(1);
+  background-color: transparent; }
+
+.unscale {
+  transform: scale(1);
+  transition: ease-in-out 0.2s; }
+
+.unscale8 {
+  animation: decreaseSizeHover 0.8s;
+  animation-iteration-count: 1;
+  transform: scale(1);
+  background-color: transparent; }
+
+@keyframes increaseSizeHover {
+  from {
+    transform: scale(1);
+    transition: ease-in-out; }
+  to {
+    transform: scale(1.1);
+    transition: ease-in-out; } }
+@keyframes decreaseSizeHover {
+  from {
+    transform: scale(1.1);
+    transition: ease-in-out; }
+  to {
+    transform: scale(1);
+    transition: ease-in-out; } }
+
+@media (max-width: 30em)
+{
+  #whyTextDiv {
+    width: 25em;
+  }
+  #whyText {
+    font-size: 1.0em; 
+  }
+}
+
+/*# sourceMappingURL=fri13.css.map */
